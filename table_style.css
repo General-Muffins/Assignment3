@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #9AABFD;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+h2{
+	text-align: left;
+	color: black;
+	background-color: #9AABFD;
+}
+
+/*Styling for the Table*/
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 15px;
+}
+
+th {
+	text-align: left;
+}
+
+#cart{
+	width: 100%;
+	background-color: #9AABFD;
+}
+
+#cart tr:nth-child(even) {
+	background-color: #eee;
+}
+#cart tr:nth-child(odd) {
+	background-color: #fff;
+}
+#cart th {
+	background-color: #2844CA;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
